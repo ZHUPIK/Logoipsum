@@ -35,11 +35,11 @@ a{
     letter-spacing: -0.468947px;
     color: #696871;
     text-decoration: none;
+    transition-duration: 500ms;
 }
 
 .link:hover{
     color: black;
-    transition: 300ms;
 }
 
 .button{ 
@@ -58,11 +58,11 @@ a{
 
 .button_orange{
     background: #FF7143;
+    transition-duration: 700ms
 }
 
 .button_orange:hover{
     background: #8a3f25;
-    transition: 600ms;
 }
 
 .about{
@@ -90,6 +90,11 @@ a{
 
 .button_violet{
     background: #5454d4;
+    transition-duration: 600ms;
+}
+
+.button_violet:hover{
+    background: #0e0eac;
 }
 
 .button_tr{
@@ -97,6 +102,11 @@ a{
     color: #5454d4;
     border: 1px solid #5454d4;
     margin-left: 35px;
+    transition-duration: 600ms;
+}
+
+.button_tr:hover{
+    background: rgb(247, 211, 121);
 }
 
 .footer{
